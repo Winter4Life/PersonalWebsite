@@ -6,27 +6,30 @@
         <title>About Me</title>
    </head>
 
-    <body>
-        <header>
+   <body>
+        <header class="grid-header">
             <a href="index.html">Home</a>
             <a href="aboutme.html">About me</a>
             <a href="socials.html">Socials</a>
-            <hr>
+            <hr class="top-line">
         </header>
-        <h3>Hello!</h3>
-        <h4>Welcome to my page.</h4>
-        <div class="intro">
-            <p>Here, you will learn more about me including some background information and see the skills I have developed while creating my personal 
+        <div class="grid-title">
+            <h3>Hello!</h3>
+            <h4>Welcome to my page.</h4>
+        </div>
+        <div class="grid-intro">
+            <p class="par-intro">Here, you will learn more about me including some background information and see the skills I have developed while creating my personal 
                 website. My goal was to create a safe, fun, and unique environment.
             </p>
         </div>
-        <section>
+        <section class="grid-bio1">
             <h4>Let's get started ʕ•́ᴥ•̀ʔっ</h4>
             <p>My name is Taylor Knobloch and I am currently a 4th year enrolled at Cal Poly Pomona majoring in 
                 computer science. Not sure why I chose this major when it continues to leave me sleep deprived, but I did. 
                 I was born and raised in California with my two siblings who are my dogs by the way, but you can't judge by 
                 appearance. They can be alot to handle, especially hope since she is the youngest in the family.</p>
         </section>
+        <div class="grid-dogs">
             <table>
                 <caption>
                     Winter & Hope
@@ -37,7 +40,8 @@
                     </td>
                 </tr>
             </table>
-        <div>
+        </div>
+        <div class="grid-bio2">
             <p>I graduated from Ayala High School where I was given my diploma and in my 4th year, I met my closest friends who 
                 are still with me to this day. I don't know what I would do without them. I have had three jobs in my life, but I 
                 usually say I have only worked two because one of them is walmart, and that lasted two months. My current job, I 
@@ -49,7 +53,7 @@
                 definitely said that I am loud, but I am working on it. I have a habit of putting people first before myelf, but I believe 
                 that can be a good thing.</p>
         </div>
-        <section>
+        <section class="grid-image-friends">
             <h4>Interests & Hobbies</h4>
             <details>
                 <summary>My Friends</summary>
@@ -63,37 +67,44 @@
                 <img src="images/aboutme.img/friends_4.GIF" alt="myfriends" width="300" height="430">
                 <img src="images/aboutme.img/friends_5.JPG" alt="myfriends" width="300" height="250">
         </section>
-        <div>
-            <details>
-                <summary>Favorite Song</summary>
-                I don't have a favorite song of all time, only songs I really enjoy in the moment
-            </details>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0V5Kukb6lGRNa8U0XJQ69u?utm_source=generator&theme=0" 
-                width="500" height="152" allowfullscreen="" 
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">My Favorite Things ❤</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>friends</td>
-                        <td>gaming</td>
-                    </tr>
-                    <tr>
-                        <td>music</td>
-                        <td>legos</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="grid-table">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">My Favorite Things ❤</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>friends</td>
+                    <td>gaming</td>
+                </tr>
+                <tr>
+                    <td>music</td>
+                    <td>legos</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="grid-image-legos">
             <details>
                 <summary>Legos I've Built</summary>
                 It's a nice distraction when I want to relax, but keep my mind at work
             </details>
                 <img src="images/aboutme.img/legos.JPG" alt="legos" width="300" height="150">
             <details>
+        </div>
+        <div class="grid-double">
+            <div class="grid-song">
+                <details>
+                    <summary>Favorite Song</summary>
+                    I don't have a favorite song of all time, only songs I really enjoy in the moment
+                </details>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0V5Kukb6lGRNa8U0XJQ69u?utm_source=generator&theme=0" 
+                    width="500" height="152" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>  
+            <div class="grid-image-games">
                 <summary>Games I Play</summary>
                 My favorite game is Dark and Darker, but these are just some games I play right now
             </details>
@@ -101,7 +112,9 @@
                 <img src="images/aboutme.img/tft.png" alt="tft" width="300" height="180">
                 <img src="images/aboutme.img/minecraft.jpg" alt="minecraft" width="300" height="160">
                 <img src="images/aboutme.img/overwatch.png" alt="overwatch" width="300" height="180">
+            </div>
         </div>
+        <div class="grid-form">
         <h3>How about you?</h3>
         <form method="get">
             <div>
@@ -116,8 +129,9 @@
                 <input type="submit" value="Submit">
             </div>
         </form>
-        <hr>
-        <footer class="footer">
+        </div>
+        <footer class="grid-footer">
+            <hr class="bottom-line">
             <small>
                 Copyright © 2023 Taylor Knobloch. All Rights Reserverd.
             </small>
