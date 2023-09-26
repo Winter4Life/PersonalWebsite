@@ -1,5 +1,5 @@
 .background-image {
-    background-image: url("images/index.img/homeBG.jpg");
+    background-image: url("../homeBG.jpg");
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -19,7 +19,7 @@ body {
     position: sticky;
     z-index: 2;
     top: 0;
-    background-image: url("images/index.img/homeBG.jpg");
+    background-image: url("../homeBG.jpg");
     opacity: 0;
     animation: reveal 2s ease-in-out 2s forwards;
 }
