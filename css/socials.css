@@ -8,8 +8,8 @@
 
 body {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-auto-rows:  minmax(2px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
     gap: 20px;
 }
 
