@@ -345,7 +345,7 @@ h4 {
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     body {
         display: grid;
         grid-template-columns: 1fr;
