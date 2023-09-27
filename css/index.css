@@ -7,7 +7,7 @@
 body {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    grid-auto-rows: minmax(2fr, auto);
+    grid-auto-rows: minmax(2px, auto);
     gap: 20px;
 }
 
@@ -36,7 +36,7 @@ a {
     padding: 0 10px;
 }
 
-a:after {
+a::after {
     content: "";
     position: absolute;
     background-color: #af0f1c;

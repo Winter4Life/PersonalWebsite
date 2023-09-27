@@ -7,8 +7,12 @@
 body {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-auto-rows: minmax(2fr, auto);
+    grid-auto-rows:  minmax(2px, auto);
     gap: 20px;
+}
+
+p {
+    color: white;
 }
 
 .grid-header {
@@ -70,21 +74,17 @@ img {
     height: auto;
  }
 
- button {
-    border: none;
-    padding: 0px;
+button {
     background: none;
- }
+    border: none;
+    border-radius: 10px;
+}
 
 .grid-instagram {
     grid-row: 3;
     grid-column: 1 / 2;
 
     text-align: right;
-}
- 
-.grid-instagram:hover button {
-    background-color: #f5c5a6;
 }
 
 .grid-link {
@@ -113,4 +113,5 @@ img {
     grid-column: 1 / 4;
 
     margin: 0;
+    color: white;
 }
