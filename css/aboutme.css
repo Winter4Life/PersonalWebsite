@@ -125,6 +125,7 @@ h4 {
     grid-column: 3 / 4;
     
     position: relative;
+    color: white;
 }
 
 .dog-table {
